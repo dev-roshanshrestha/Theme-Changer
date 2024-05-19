@@ -8,10 +8,14 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  transition: all 0.3s ease-in;
+
 }
 
 .bg-dark {
   background-color: black;
+  transition: all 0.3s ease-in;
+
 }
 
 :root {
@@ -60,13 +64,13 @@
   left: 13px;
   background-color: var(--button-color);
   position: absolute;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in;
   /* border: 1px solid; */
 }
 
 .swiper-right {
   left: 105px;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in;
   background-color: var(--button-color);
   position: absolute;
   /* border: 1px solid; */
